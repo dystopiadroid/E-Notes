@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #462727;
+}
+
+#navbar{
+  background-color: burlywood;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar-heading{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#navbar-heading a{
+  text-decoration: none;
+  color: black;
+}
+
+#note-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 20px;
+  padding: 15px 0px;;
+  border: 2px solid black;
+}
+
+#note-heading{
+  font-weight: 800;
+  font-size: 30px;
+  color: #f59797;
+}
+
+#note-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+#note-title-input{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: burlywood;
+  border-radius: 5px;
+  outline: none;
+  padding: 4px 5px;
+  font-size: 14px;
+}
+
+#note-content-input{
+  margin: 10px 10px;
+  padding: 4px 5px;
+  background-color: burlywood;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+#note-submit{
+  background-color: burlywood;
+  padding: 5px 35px;
+  margin-top: 15px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#note-clear-details{
+  background-color: burlywood;
+  padding: 5px 35px;
+  margin-top: 15px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#note-list-table-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 15px 2rem;
+}
+
+table td{
+  padding: 2px 10px;
+  color: bisque;
+}
+
+table td a{
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #f17878;
+}
+
+table tr{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 35px;
+}
+
+#add-note-button{
+  background-color: burlywood;
+  padding: 5px 25px;
+  border-radius: 6px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+#add-note-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#delete-note-button{
+  cursor: pointer;
+}
+
+#edit-note-button{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
